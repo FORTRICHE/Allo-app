@@ -1,4 +1,2 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import ALLO from '../src/ALLO.jsx'
-ReactDOM.createRoot(document.getElementById('root')).render(<ALLO />)
+import React, { useState, useEffect, useRef } from 'react'
+import ReactDOM from 'react-dom/client'ReactDOM.createRoot(document.getElementById('root')).render(<ALLO />)
